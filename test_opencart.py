@@ -22,20 +22,32 @@ def test_main_page(browser, selector):
 @pytest.mark.parametrize('selector', ['']
                          )
 def test_cataloge(browser, selector):
-    wait_time(wait_time("Your Store", browser))
+    browser.get('')
+    wait_time("Your Store", browser)
     assert_element(selector, browser)
 
-#
-# # 2.3
-# def test_cart_(browser):
-#     pass
-#
-#
-# # 2.4
-# def test_login_page(browser):
-#     pass
-#
-#
-# # 2.5
-# def test_admin_login_page(browser):
-#     pass
+
+# 2.3
+@pytest.mark.parametrize('selector', ['']
+                         )
+def test_cataloge(browser, selector):
+    browser.get('')
+    wait_time("Your Store", browser)
+    assert_element(selector, browser)
+
+
+# 2.4
+@pytest.mark.parametrize('selector', ['']
+                         )
+def test_cataloge(browser, selector):
+    browser.get('')
+    wait_time("Your Store", browser)
+    assert_element(selector, browser)
+
+# 2.5
+@pytest.mark.parametrize('selector', ['']
+                         )
+def test_cataloge(browser, selector):
+    browser.get('')
+    wait_time("Your Store", browser)
+    assert_element(selector, browser)

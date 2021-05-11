@@ -30,8 +30,9 @@ def browser(request):
     elif browser == 'opera':
         driver = webdriver.Opera(executable_path=f'{DRIVERS}/operadriver')
     else:
-        raise ValueError("Driver not supported: {}".format(browser))  # исключение для неизветсного параметра
+        raise ValueError(f"Driver not supported: {browser}")  # исключение для неизветсного параметра
     url = request.config.getoption('--uurl')
+
     driver.get(url)
     request.addfinalizer(driver.quit)
     return driver
