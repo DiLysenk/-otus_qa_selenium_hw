@@ -58,6 +58,6 @@ def test_login(browser, selector):
                                       '[type="submit"]',
                                       '[href="http://www.opencart.com"]']
                          )
-def test_cataloge(browser, selector):
+def test_admin(browser, selector):
     browser.get('http://localhost/admin/')
     assert_element(selector, browser)
