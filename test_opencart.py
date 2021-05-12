@@ -36,7 +36,7 @@ def test_cataloge(browser, selector):
                                       '[href="#tab-review"]',
                                       '.btn.btn-primary.btn-lg.btn-block']
                          )
-def test_cataloge(browser, selector):
+def test_product(browser, selector):
     browser.get('http://localhost/index.php?route=product/product&path=57&product_id=49')
     assert_element(selector, browser)
 
