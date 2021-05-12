@@ -40,6 +40,7 @@ def test_product(browser, selector):
     browser.get('http://localhost/index.php?route=product/product&path=57&product_id=49')
     assert_element(selector, browser)
 
+
 # 2.4
 @pytest.mark.parametrize('selector', ['.breadcrumb',
                                       '[type="submit"]',
@@ -50,6 +51,7 @@ def test_product(browser, selector):
 def test_login(browser, selector):
     browser.get('http://localhost/index.php?route=account/login')
     assert_element(selector, browser)
+
 
 # 2.5
 @pytest.mark.parametrize('selector', ['[placeholder="Username"]',
