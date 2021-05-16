@@ -32,7 +32,6 @@ def browser(request):
     else:
         raise ValueError(f"Driver not supported: {browser}")  # исключение для неизветсного параметра
     url = request.config.getoption('--uurl')
-
     driver.get(url)
     request.addfinalizer(driver.quit)
     return driver
