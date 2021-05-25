@@ -1,7 +1,7 @@
 from .Base import BasePage
 from selenium.webdriver.common.by import By
-from faker.providers.internet import Provider
-fake = Provider(1)
+
+
 
 
 class RegisterPage(BasePage):
