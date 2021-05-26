@@ -8,11 +8,7 @@ class LoginAdminPage(BasePage):
     PASSWORD_ADMIN = (By.CSS_SELECTOR, '[name="password"]')
     LOGIN_BUTTON_ADMIN = (By.CSS_SELECTOR, ".btn.btn-primary")
 
-
-
     def login_admin(self):
-        self.sending_keys(self.element(self.USERNAME_ADMIN), 'user')
-        self.sending_keys(self.element(self.PASSWORD_ADMIN), 'bitnami')
+        self.input_keys(self.element(self.USERNAME_ADMIN), 'user')
+        self.input_keys(self.element(self.PASSWORD_ADMIN), 'bitnami')
         self.simple_click_element(self.element(self.LOGIN_BUTTON_ADMIN))
-
-

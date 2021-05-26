@@ -65,6 +65,5 @@ class BasePage:
     def verify_element_presence(self, locator: tuple):
         return self._verify_element_presence(locator)
 
-
-    def sending_keys(self, element, text):
+    def input_keys(self, element, text):
         return element.send_keys(text)
