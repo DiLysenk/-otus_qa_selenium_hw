@@ -1,8 +1,7 @@
 import pytest
 import os
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
 
 DRIVERS = os.path.expanduser("~/Downloads/drivers")
 
@@ -23,8 +22,11 @@ def pytest_addoption(parser):
 @pytest.fixture(scope='session')
 def browser(request):
     browser = request.config.getoption("--browser")
+    common_caps = {"pageLoadStrategy": "eager"}
     if browser == "chrome":
-        driver = webdriver.Chrome(executable_path=f'{DRIVERS}/chromedriver')
+        driver = webdriver.Chrome(executable_path=f'{DRIVERS}/chromedriver',
+                                  desired_capabilities=common_caps
+                                  )
     elif browser == "firefox":
         driver = webdriver.Firefox(executable_path=f'{DRIVERS}/geckodriver')
     elif browser == 'opera':
