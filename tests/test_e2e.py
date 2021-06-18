@@ -14,7 +14,7 @@ def test_registration(browser):
         fill_form(myFactory.name(), myFactory.email()). \
         agree_polycy(). \
         click_continue()
-    assert browser.current_url == "http://demo-opencart.ru/index.php?route=account/success", 'неудача'
+    assert browser.current_url == "http://localhost/index.php?route=account/success", 'неудача'
 
 @pytest.mark.usefixtures('loging')
 def test_add_new_item(browser):
