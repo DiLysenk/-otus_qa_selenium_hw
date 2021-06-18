@@ -1,0 +1,121 @@
+[ {
+  "uid" : "4043ebcc4c114ec6",
+  "name" : "test_add_new_item",
+  "time" : {
+    "start" : 1624025340017,
+    "stop" : 1624025344619,
+    "duration" : 4602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d4f2444e114c4a",
+  "name" : "тест создание пользоватиеля",
+  "time" : {
+    "start" : 1624027069654,
+    "stop" : 1624027071561,
+    "duration" : 1907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9204ce1e15a1b0d",
+  "name" : "тест удаление товара",
+  "time" : {
+    "start" : 1624027076375,
+    "stop" : 1624027078515,
+    "duration" : 2140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e4a7289595d254c",
+  "name" : "тест удаление товара",
+  "time" : {
+    "start" : 1624026638067,
+    "stop" : 1624026640392,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d93b34ab4d17466b",
+  "name" : "тест создание пользоватиеля",
+  "time" : {
+    "start" : 1624026632172,
+    "stop" : 1624026634071,
+    "duration" : 1899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "649d1455b2b32377",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1624025338292,
+    "stop" : 1624025340011,
+    "duration" : 1719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bdb7c4e0b099112",
+  "name" : "тест изменение валюты",
+  "time" : {
+    "start" : 1624026640394,
+    "stop" : 1624026640991,
+    "duration" : 597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80ed75a32d2cc3df",
+  "name" : "test_switch_currency",
+  "time" : {
+    "start" : 1624025346984,
+    "stop" : 1624025347626,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5c42afb250775b6",
+  "name" : "тест новго товара",
+  "time" : {
+    "start" : 1624026634076,
+    "stop" : 1624026638062,
+    "duration" : 3986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64481312d3560af1",
+  "name" : "тест изменение валюты",
+  "time" : {
+    "start" : 1624027078790,
+    "stop" : 1624027079413,
+    "duration" : 623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dca16068a8f9f2de",
+  "name" : "тест новго товара",
+  "time" : {
+    "start" : 1624027071841,
+    "stop" : 1624027076165,
+    "duration" : 4324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ee6020400ff025b",
+  "name" : "test_delete_item",
+  "time" : {
+    "start" : 1624025344622,
+    "stop" : 1624025346979,
+    "duration" : 2357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

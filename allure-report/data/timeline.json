@@ -1,0 +1,267 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ryzenB450",
+    "children" : [ {
+      "name" : "42142-MainThread",
+      "children" : [ {
+        "name" : "test_add_new_item",
+        "uid" : "4043ebcc4c114ec6",
+        "parentUid" : "cd0bff7e12a63f5ec8831b4ba73f83d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624025340017,
+          "stop" : 1624025344619,
+          "duration" : 4602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registration",
+        "uid" : "649d1455b2b32377",
+        "parentUid" : "cd0bff7e12a63f5ec8831b4ba73f83d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624025338292,
+          "stop" : 1624025340011,
+          "duration" : 1719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_item",
+        "uid" : "7ee6020400ff025b",
+        "parentUid" : "cd0bff7e12a63f5ec8831b4ba73f83d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624025344622,
+          "stop" : 1624025346979,
+          "duration" : 2357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_switch_currency",
+        "uid" : "80ed75a32d2cc3df",
+        "parentUid" : "cd0bff7e12a63f5ec8831b4ba73f83d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624025346984,
+          "stop" : 1624025347626,
+          "duration" : 642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd0bff7e12a63f5ec8831b4ba73f83d4"
+    }, {
+      "name" : "47343-MainThread",
+      "children" : [ {
+        "name" : "тест изменение валюты",
+        "uid" : "64481312d3560af1",
+        "parentUid" : "e410f9a5f2e94f37238f5ca1e3a51201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027078790,
+          "stop" : 1624027079413,
+          "duration" : 623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест новго товара",
+        "uid" : "dca16068a8f9f2de",
+        "parentUid" : "e410f9a5f2e94f37238f5ca1e3a51201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027071841,
+          "stop" : 1624027076165,
+          "duration" : 4324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест удаление товара",
+        "uid" : "e9204ce1e15a1b0d",
+        "parentUid" : "e410f9a5f2e94f37238f5ca1e3a51201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027076375,
+          "stop" : 1624027078515,
+          "duration" : 2140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест создание пользоватиеля",
+        "uid" : "82d4f2444e114c4a",
+        "parentUid" : "e410f9a5f2e94f37238f5ca1e3a51201",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027069654,
+          "stop" : 1624027071561,
+          "duration" : 1907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e410f9a5f2e94f37238f5ca1e3a51201"
+    }, {
+      "name" : "46617-MainThread",
+      "children" : [ {
+        "name" : "тест удаление товара",
+        "uid" : "f1462143bddf4e74",
+        "parentUid" : "2d757d7df29a7117be076bfb7743502c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027013172,
+          "stop" : 1624027015294,
+          "duration" : 2122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест создание пользоватиеля",
+        "uid" : "3f39e8006e58f1cd",
+        "parentUid" : "2d757d7df29a7117be076bfb7743502c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027006282,
+          "stop" : 1624027008192,
+          "duration" : 1910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест изменение валюты",
+        "uid" : "26398b1e15978417",
+        "parentUid" : "2d757d7df29a7117be076bfb7743502c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027015557,
+          "stop" : 1624027016145,
+          "duration" : 588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест новго товара",
+        "uid" : "50802c8e09563964",
+        "parentUid" : "2d757d7df29a7117be076bfb7743502c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624027008463,
+          "stop" : 1624027012952,
+          "duration" : 4489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d757d7df29a7117be076bfb7743502c"
+    }, {
+      "name" : "45447-MainThread",
+      "children" : [ {
+        "name" : "тест удаление товара",
+        "uid" : "bfa5cfcb7309415d",
+        "parentUid" : "bd409544b323dfa2b4dd92d9e9a9bfb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026789485,
+          "stop" : 1624026792717,
+          "duration" : 3232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd409544b323dfa2b4dd92d9e9a9bfb0"
+    }, {
+      "name" : "46376-MainThread",
+      "children" : [ {
+        "name" : "тест удаление товара",
+        "uid" : "70d3ab9f14820474",
+        "parentUid" : "66bf2a5f175c47369e7a60ae5bd75d91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026989862,
+          "stop" : 1624026992845,
+          "duration" : 2983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66bf2a5f175c47369e7a60ae5bd75d91"
+    }, {
+      "name" : "45100-MainThread",
+      "children" : [ {
+        "name" : "тест удаление товара",
+        "uid" : "8e4a7289595d254c",
+        "parentUid" : "e6a3578623bc0b8cd06e8a7d7c91a41c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026638067,
+          "stop" : 1624026640392,
+          "duration" : 2325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест новго товара",
+        "uid" : "b5c42afb250775b6",
+        "parentUid" : "e6a3578623bc0b8cd06e8a7d7c91a41c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026634076,
+          "stop" : 1624026638062,
+          "duration" : 3986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест изменение валюты",
+        "uid" : "5bdb7c4e0b099112",
+        "parentUid" : "e6a3578623bc0b8cd06e8a7d7c91a41c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026640394,
+          "stop" : 1624026640991,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "тест создание пользоватиеля",
+        "uid" : "d93b34ab4d17466b",
+        "parentUid" : "e6a3578623bc0b8cd06e8a7d7c91a41c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624026632172,
+          "stop" : 1624026634071,
+          "duration" : 1899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6a3578623bc0b8cd06e8a7d7c91a41c"
+    } ],
+    "uid" : "3a4cc74aaffc4f9b40a4cf4bea27f8d1"
+  } ]
+}

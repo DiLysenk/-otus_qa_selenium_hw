@@ -49,45 +49,25 @@ def browser(request):
         browser.maximize_window()
 
     def fin():
-        allure.attach(
-            browser.get_screenshot_as_png(),
-            name='finalizer attach',
-            attachment_type=allure.attachment_type.PNG
-        )
         browser.quit()
 
     request.addfinalizer(fin)
     return browser
 
-
-
-
 @pytest.fixture(scope='function')
-def loging(request):
+def loging(request, browser):
     logger = logging.getLogger('BrowserLogger')
     test_name = request.node.name
+
     logger.info(f"===> Test started name, test is {test_name}")
 
     def fin():
+        allure.attach(
+            browser.get_screenshot_as_png(),
+            name='finalizer attach',
+            attachment_type=allure.attachment_type.PNG
+        )
         logger.info(f"===> Test finished name, test is {test_name}")
 
     request.addfinalizer(fin)
 
-# @pytest.fixture(scope='session')
-# def browser_1(request):
-#     browser = request.config.getoption("--browser")
-#     common_caps = {"pageLoadStrategy": "eager"}
-#     if browser == "chrome":
-#         driver = webdriver.Chrome(executable_path=f'{DRIVERS}/chromedriver',
-#                                   desired_capabilities=common_caps
-#                                   )
-#     elif browser == "firefox":
-#         driver = webdriver.Firefox(executable_path=f'{DRIVERS}/geckodriver')
-#     elif browser == 'opera':
-#         driver = webdriver.Opera(executable_path=f'{DRIVERS}/operadriver')
-#     else:
-#         raise ValueError(f"Driver not supported: {browser}")  # исключение для неизветсного параметра
-#     url = request.config.getoption('--uurl')
-#     driver.get(url)
-#     request.addfinalizer(driver.quit)
-#     return driver

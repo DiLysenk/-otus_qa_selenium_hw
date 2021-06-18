@@ -1,0 +1,157 @@
+{
+  "uid" : "26398b1e15978417",
+  "name" : "тест изменение валюты",
+  "fullName" : "tests.test_e2e.TestOpenCart#test_switch_currency",
+  "historyId" : "5fce6bc5ad973b2c75e1e3c35dcf2779",
+  "time" : {
+    "start" : 1624027015557,
+    "stop" : 1624027016145,
+    "duration" : 588
+  },
+  "description" : "Проверка изменение валюты на главной странице",
+  "descriptionHtml" : "<p>Проверка изменение валюты на главной странице</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1624027004472,
+      "stop" : 1624027006090,
+      "duration" : 1618
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1624027004459,
+      "stop" : 1624027004472,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "loging",
+    "time" : {
+      "start" : 1624027015298,
+      "stop" : 1624027015556,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "813ec72a6412e59",
+      "name" : "finalizer attach",
+      "source" : "813ec72a6412e59.png",
+      "type" : "image/png",
+      "size" : 153552
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Проверка изменение валюты на главной странице",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea3ef7748cb882ce",
+      "name" : "log",
+      "source" : "ea3ef7748cb882ce.txt",
+      "type" : "text/plain",
+      "size" : 662
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1624027016147,
+      "stop" : 1624027016360,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "loging::fin",
+    "time" : {
+      "start" : 1624027016146,
+      "stop" : 1624027016146,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('loging')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_e2e"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenCart"
+  }, {
+    "name" : "host",
+    "value" : "ryzenB450"
+  }, {
+    "name" : "thread",
+    "value" : "46617-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_e2e"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('loging')" ]
+  },
+  "source" : "26398b1e15978417.json",
+  "parameterValues" : [ ]
+}
