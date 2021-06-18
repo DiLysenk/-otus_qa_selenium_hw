@@ -1,0 +1,356 @@
+2021-06-18 01:50:35,970 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 01:50:36,053 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 01:50:36,054 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 01:50:36,084 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 01:50:36,084 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 01:50:36,110 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 01:50:36,111 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 01:50:36,136 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 01:53:31,798 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 01:53:31,829 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 01:53:31,829 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 01:53:31,858 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 01:53:31,859 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 01:53:31,897 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 01:53:31,897 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 01:53:31,901 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 01:53:58,478 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 01:53:58,508 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 01:53:58,509 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 01:53:58,512 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 01:53:58,513 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 01:53:58,516 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 01:53:58,517 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 01:53:58,521 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 01:56:25,871 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 01:56:25,924 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 01:56:25,925 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 01:56:25,966 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 01:56:25,967 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 01:56:25,993 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 01:56:25,994 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 01:56:26,022 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 01:59:29,532 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 01:59:29,576 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 01:59:29,577 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 01:59:29,583 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 01:59:29,584 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 01:59:29,589 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 01:59:29,590 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 01:59:29,596 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 02:00:50,670 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 02:00:50,741 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 02:00:50,742 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 02:00:50,767 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 02:00:50,768 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 02:00:50,797 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 02:00:50,798 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 02:00:50,826 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
+2021-06-18 02:02:26,606 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 02:02:27,142 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 02:02:37,195 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 02:03:33,284 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 02:04:17,040 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 02:04:17,579 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 12:11:25,120 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 12:11:26,161 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+2021-06-18 12:11:26,161 - RegisterPage - INFO - input text Thomas Brown
+2021-06-18 12:11:26,264 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+2021-06-18 12:11:26,264 - RegisterPage - INFO - input text Thomas Brown
+2021-06-18 12:11:26,346 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+2021-06-18 12:11:26,346 - RegisterPage - INFO - input text mullinsgerald@barnes.net
+2021-06-18 12:11:26,447 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+2021-06-18 12:11:26,447 - RegisterPage - INFO - input text 123456789
+2021-06-18 12:11:26,538 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+2021-06-18 12:11:26,538 - RegisterPage - INFO - input text 123456
+2021-06-18 12:11:26,627 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+2021-06-18 12:11:26,628 - RegisterPage - INFO - input text 123456
+2021-06-18 12:11:26,683 - RegisterPage - INFO - Clicking element
+2021-06-18 12:11:26,719 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 12:13:29,539 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 12:13:30,291 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+2021-06-18 12:13:30,291 - RegisterPage - INFO - input text Kim Higgins
+2021-06-18 12:13:30,405 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+2021-06-18 12:13:30,406 - RegisterPage - INFO - input text Kim Higgins
+2021-06-18 12:13:30,494 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+2021-06-18 12:13:30,494 - RegisterPage - INFO - input text paulwilliams@yahoo.com
+2021-06-18 12:13:30,599 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+2021-06-18 12:13:30,600 - RegisterPage - INFO - input text 123456789
+2021-06-18 12:13:30,689 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+2021-06-18 12:13:30,689 - RegisterPage - INFO - input text 123456
+2021-06-18 12:13:30,775 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+2021-06-18 12:13:30,776 - RegisterPage - INFO - input text 123456
+2021-06-18 12:13:30,871 - RegisterPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[name="agree"]')
+2021-06-18 12:13:30,871 - RegisterPage - INFO - Clicking element
+2021-06-18 12:13:30,916 - RegisterPage - INFO - Clicking element
+2021-06-18 12:13:30,952 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 12:14:06,079 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 12:14:07,022 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+2021-06-18 12:14:07,022 - RegisterPage - INFO - input text Anthony Miller
+2021-06-18 12:14:07,132 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+2021-06-18 12:14:07,132 - RegisterPage - INFO - input text Anthony Miller
+2021-06-18 12:14:07,225 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+2021-06-18 12:14:07,225 - RegisterPage - INFO - input text tstephenson@yahoo.com
+2021-06-18 12:14:07,317 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+2021-06-18 12:14:07,317 - RegisterPage - INFO - input text 123456789
+2021-06-18 12:14:07,411 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+2021-06-18 12:14:07,411 - RegisterPage - INFO - input text 123456
+2021-06-18 12:14:07,498 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+2021-06-18 12:14:07,498 - RegisterPage - INFO - input text 123456
+2021-06-18 12:14:07,598 - RegisterPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[name="agree"]')
+2021-06-18 12:14:07,598 - RegisterPage - INFO - Clicking element
+2021-06-18 12:14:07,680 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[value="Continue"]')
+2021-06-18 12:14:07,680 - RegisterPage - INFO - Clicking element
+2021-06-18 12:14:08,294 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 12:16:00,145 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 12:16:05,265 - LoginAdminPage - INFO - элемент не найден ('css selector', '[name="username"]')
+2021-06-18 12:16:05,310 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:33:10,232 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 13:33:15,348 - MainPage - INFO - элемент не найден ('css selector', '.hidden-xs.hidden-sm.hidden-md')
+2021-06-18 13:33:15,387 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 13:43:54,474 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 13:43:54,553 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 13:45:43,235 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 13:45:47,545 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+2021-06-18 13:45:47,545 - RegisterPage - INFO - input text Paul Banks
+2021-06-18 13:45:47,657 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+2021-06-18 13:45:47,657 - RegisterPage - INFO - input text Paul Banks
+2021-06-18 13:45:47,757 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+2021-06-18 13:45:47,757 - RegisterPage - INFO - input text ewilson@sanchez-thompson.com
+2021-06-18 13:45:47,861 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+2021-06-18 13:45:47,861 - RegisterPage - INFO - input text 123456789
+2021-06-18 13:45:47,952 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+2021-06-18 13:45:47,952 - RegisterPage - INFO - input text 123456
+2021-06-18 13:45:48,056 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+2021-06-18 13:45:48,056 - RegisterPage - INFO - input text 123456
+2021-06-18 13:45:48,155 - RegisterPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[name="agree"]')
+2021-06-18 13:45:48,155 - RegisterPage - INFO - Clicking element
+2021-06-18 13:45:48,247 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[value="Continue"]')
+2021-06-18 13:45:48,247 - RegisterPage - INFO - Clicking element
+2021-06-18 13:45:50,052 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 13:47:51,148 - BrowserLogger - INFO - ===> Test started name, test is test_registration
+2021-06-18 13:47:54,466 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+2021-06-18 13:47:54,466 - RegisterPage - INFO - input text Mr. Phillip Henson
+2021-06-18 13:47:54,574 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+2021-06-18 13:47:54,574 - RegisterPage - INFO - input text Mr. Phillip Henson
+2021-06-18 13:47:54,667 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+2021-06-18 13:47:54,667 - RegisterPage - INFO - input text martinezjames@hotmail.com
+2021-06-18 13:47:54,766 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+2021-06-18 13:47:54,767 - RegisterPage - INFO - input text 123456789
+2021-06-18 13:47:54,853 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+2021-06-18 13:47:54,853 - RegisterPage - INFO - input text 123456
+2021-06-18 13:47:54,944 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+2021-06-18 13:47:54,945 - RegisterPage - INFO - input text 123456
+2021-06-18 13:47:55,055 - RegisterPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[name="agree"]')
+2021-06-18 13:47:55,056 - RegisterPage - INFO - Clicking element
+2021-06-18 13:47:55,138 - RegisterPage - INFO -  найден элемент с локатором ('css selector', '[value="Continue"]')
+2021-06-18 13:47:55,139 - RegisterPage - INFO - Clicking element
+2021-06-18 13:47:56,905 - BrowserLogger - INFO - ===> Test finished name, test is test_registration
+2021-06-18 13:50:42,527 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:50:46,902 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:50:46,902 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:50:46,993 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:50:46,994 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:50:47,093 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:50:47,093 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:50:53,043 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:50:53,083 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:51:05,914 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:51:08,900 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:51:08,901 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:09,011 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:51:09,013 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:09,115 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:51:09,115 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:51:14,932 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:51:14,974 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:51:18,940 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:51:21,694 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:51:21,694 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:21,782 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:51:21,782 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:21,894 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:51:21,895 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:51:28,358 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:51:28,400 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:51:36,167 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:51:39,034 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:51:39,035 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:39,132 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:51:39,132 - LoginAdminPage - INFO - input text 'demo'
+2021-06-18 13:51:39,232 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:51:39,232 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:51:46,188 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:51:46,229 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:51:57,160 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:52:00,479 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:52:00,480 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:52:00,579 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:52:00,579 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:52:00,673 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:52:00,673 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:52:04,387 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:52:04,388 - AdminPage - INFO - Clicking element
+2021-06-18 13:52:04,986 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 13:52:04,987 - AdminPage - INFO - Clicking element
+2021-06-18 13:52:11,998 - AdminPage - INFO - элемент не найден ('css selector', '[data-original-title="Add New"]')
+2021-06-18 13:52:12,040 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:54:12,721 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:54:16,410 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:54:16,410 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:54:16,516 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:54:16,516 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:54:16,606 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:54:16,606 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:54:16,793 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:57:14,178 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:57:30,258 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:57:30,258 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:57:30,335 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:57:30,335 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:57:30,431 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:57:30,431 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:57:37,811 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:57:37,852 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:57:43,425 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:58:02,500 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 13:58:02,501 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:58:02,593 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 13:58:02,593 - LoginAdminPage - INFO - input text demo
+2021-06-18 13:58:02,693 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 13:58:02,693 - LoginAdminPage - INFO - Clicking element
+2021-06-18 13:58:11,142 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 13:58:11,181 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 13:58:41,322 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 13:59:17,298 - LoginAdminPage - INFO - элемент не найден ('css selector', '[name="username"]')
+2021-06-18 13:59:17,337 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:06:28,054 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 14:06:47,439 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:06:47,440 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:06:47,522 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:06:47,523 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:06:47,609 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:06:47,610 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:06:49,588 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:12:21,508 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 14:12:23,459 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:12:23,459 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:12:23,563 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:12:23,563 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:12:23,665 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:12:23,666 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:12:25,296 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:12:25,296 - AdminPage - INFO - Clicking element
+2021-06-18 14:12:25,887 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 14:12:25,888 - AdminPage - INFO - Clicking element
+2021-06-18 14:12:27,065 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-original-title="Добавить"]')
+2021-06-18 14:12:27,065 - AdminPage - INFO - Clicking element
+2021-06-18 14:12:30,748 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Название товара"]')
+2021-06-18 14:12:30,748 - AdminPage - INFO - input text #66a4d1
+2021-06-18 14:12:30,860 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Мета-тег Title"]')
+2021-06-18 14:12:30,860 - AdminPage - INFO - input text #66a4d1
+2021-06-18 14:12:36,079 - AdminPage - INFO - элемент не найден Data
+2021-06-18 14:12:36,122 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:13:08,367 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 14:13:11,688 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:13:11,689 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:13:11,783 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:13:11,784 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:13:11,881 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:13:11,881 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:13:12,618 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:13:12,618 - AdminPage - INFO - Clicking element
+2021-06-18 14:13:13,209 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 14:13:13,209 - AdminPage - INFO - Clicking element
+2021-06-18 14:13:14,400 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-original-title="Добавить"]')
+2021-06-18 14:13:14,400 - AdminPage - INFO - Clicking element
+2021-06-18 14:13:17,912 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Название товара"]')
+2021-06-18 14:13:17,912 - AdminPage - INFO - input text #eaa788
+2021-06-18 14:13:18,024 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Мета-тег Title"]')
+2021-06-18 14:13:18,024 - AdminPage - INFO - input text #eaa788
+2021-06-18 14:13:18,133 - AdminPage - INFO -  найден элемент с текстом Данные
+2021-06-18 14:13:18,133 - AdminPage - INFO - Clicking element
+2021-06-18 14:13:18,232 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Модель"]')
+2021-06-18 14:13:18,232 - AdminPage - INFO - input text #eaa788
+2021-06-18 14:13:18,344 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.fa.fa-save')
+2021-06-18 14:13:18,344 - AdminPage - INFO - Clicking element
+2021-06-18 14:13:25,410 - LoginAdminPage - INFO - элемент не найден #eaa788
+2021-06-18 14:13:25,448 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:17:48,441 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 14:17:49,011 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:17:49,011 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:17:49,107 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:17:49,107 - LoginAdminPage - INFO - input text demo
+2021-06-18 14:17:49,207 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:17:49,208 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:17:54,458 - AdminPage - INFO - элемент не найден ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:17:54,499 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:18:34,220 - BrowserLogger - INFO - ===> Test started name, test is test_add_new_item
+2021-06-18 14:18:34,959 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:18:34,959 - LoginAdminPage - INFO - input text user
+2021-06-18 14:18:35,063 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:18:35,064 - LoginAdminPage - INFO - input text bitnami
+2021-06-18 14:18:35,170 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:18:35,171 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:18:36,581 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:18:36,581 - AdminPage - INFO - Clicking element
+2021-06-18 14:18:37,190 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 14:18:37,190 - AdminPage - INFO - Clicking element
+2021-06-18 14:18:37,463 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-original-title="Add New"]')
+2021-06-18 14:18:37,464 - AdminPage - INFO - Clicking element
+2021-06-18 14:18:38,208 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Product Name"]')
+2021-06-18 14:18:38,208 - AdminPage - INFO - input text #4c8baa
+2021-06-18 14:18:38,325 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Meta Tag Title"]')
+2021-06-18 14:18:38,325 - AdminPage - INFO - input text #4c8baa
+2021-06-18 14:18:38,427 - AdminPage - INFO -  найден элемент с текстом Data
+2021-06-18 14:18:38,427 - AdminPage - INFO - Clicking element
+2021-06-18 14:18:38,525 - AdminPage - INFO -  найден элемент с локатором ('css selector', '[placeholder="Model"]')
+2021-06-18 14:18:38,525 - AdminPage - INFO - input text #4c8baa
+2021-06-18 14:18:38,641 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.fa.fa-save')
+2021-06-18 14:18:38,642 - AdminPage - INFO - Clicking element
+2021-06-18 14:18:38,902 - LoginAdminPage - INFO -  найден элемент с текстом #4c8baa
+2021-06-18 14:18:38,902 - BrowserLogger - INFO - ===> Test finished name, test is test_add_new_item
+2021-06-18 14:29:59,693 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 14:30:04,809 - LoginAdminPage - INFO - элемент не найден ('css selector', '[name="username"]')
+2021-06-18 14:30:04,849 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 14:30:26,702 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 14:30:27,466 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:30:27,466 - LoginAdminPage - INFO - input text user
+2021-06-18 14:30:27,567 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:30:27,567 - LoginAdminPage - INFO - input text bitnami
+2021-06-18 14:30:27,669 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:30:27,669 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:30:28,514 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:30:28,515 - AdminPage - INFO - Clicking element
+2021-06-18 14:30:29,111 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 14:30:29,111 - AdminPage - INFO - Clicking element
+2021-06-18 14:30:29,344 - AdminPage - INFO -  найден элемент с локатором ('css selector', '.table.table-bordered.table-hover')
+2021-06-18 14:30:29,344 - AdminPage - INFO - Clicking element
+2021-06-18 14:30:29,355 - AdminPage - INFO - Clicking element
+2021-06-18 14:30:29,435 - AdminPage - INFO -  найден элемент с локатором ('css selector', '.fa.fa-trash-o')
+2021-06-18 14:30:29,472 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 14:30:59,826 - BrowserLogger - INFO - ===> Test started name, test is test_delete_item
+2021-06-18 14:31:00,559 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="username"]')
+2021-06-18 14:31:00,559 - LoginAdminPage - INFO - input text user
+2021-06-18 14:31:00,653 - LoginAdminPage - INFO -  найден элемент с локатором ('css selector', '[name="password"]')
+2021-06-18 14:31:00,654 - LoginAdminPage - INFO - input text bitnami
+2021-06-18 14:31:00,758 - LoginAdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.btn.btn-primary')
+2021-06-18 14:31:00,759 - LoginAdminPage - INFO - Clicking element
+2021-06-18 14:31:02,187 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '[data-toggle="collapse"]')
+2021-06-18 14:31:02,187 - AdminPage - INFO - Clicking element
+2021-06-18 14:31:02,783 - AdminPage - INFO -  найден элемент с кликаббельным локаттором ('css selector', '.collapse.in li + li a')
+2021-06-18 14:31:02,783 - AdminPage - INFO - Clicking element
+2021-06-18 14:31:03,000 - AdminPage - INFO -  найден элемент с локатором ('css selector', '.table.table-bordered.table-hover')
+2021-06-18 14:31:03,000 - AdminPage - INFO - Clicking element
+2021-06-18 14:31:03,012 - AdminPage - INFO - Clicking element
+2021-06-18 14:31:03,098 - AdminPage - INFO -  найден элемент с локатором ('css selector', '.fa.fa-trash-o')
+2021-06-18 14:31:03,098 - AdminPage - INFO - Clicking element
+2021-06-18 14:31:03,339 - AdminPage - INFO -  найден элемент с локатором ('css selector', '.alert.alert-success.alert-dismissible')
+2021-06-18 14:31:03,341 - BrowserLogger - INFO - ===> Test finished name, test is test_delete_item
+2021-06-18 14:31:09,229 - BrowserLogger - INFO - ===> Test started name, test is test_switch_currency
+2021-06-18 14:31:09,882 - MainPage - INFO -  найден элемент с локатором ('css selector', '.btn.btn-link.dropdown-toggle')
+2021-06-18 14:31:09,882 - MainPage - INFO - Clicking element
+2021-06-18 14:31:09,960 - MainPage - INFO -  найден элемент с текстом £ Pound Sterling
+2021-06-18 14:31:09,960 - MainPage - INFO - Clicking element
+2021-06-18 14:31:10,231 - MainPage - INFO -  найден элемент с текстом £
+2021-06-18 14:31:10,232 - BrowserLogger - INFO - ===> Test finished name, test is test_switch_currency
