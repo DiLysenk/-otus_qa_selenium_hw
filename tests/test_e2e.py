@@ -29,6 +29,8 @@ class TestOpenCart:
             forward_to_url(MainPage.OpenCArt).\
             change_currency()
         assert MainPage(browser).element_text('£'), "валюта не переведена"
+
+
     # @allure.description("""Добавление нового контента в список товаров""")
     # @allure.title('тест новго товара')
     # def test_add_new_item(self, browser):
