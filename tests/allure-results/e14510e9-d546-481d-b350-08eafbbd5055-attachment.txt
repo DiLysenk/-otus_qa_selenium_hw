@@ -1,0 +1,18 @@
+INFO     BrowserLogger:conftest.py:65 ===> Test started name, test is test_registration
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="First Name"]')
+INFO     RegisterPage:BasePage.py:123 input text Daniel Mullen
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="Last Name"]')
+INFO     RegisterPage:BasePage.py:123 input text Daniel Mullen
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="E-Mail"]')
+INFO     RegisterPage:BasePage.py:123 input text vgalvan@hotmail.com
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="Telephone"]')
+INFO     RegisterPage:BasePage.py:123 input text 123456789
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="Password"]')
+INFO     RegisterPage:BasePage.py:123 input text 123456
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[placeholder="Password Confirm"]')
+INFO     RegisterPage:BasePage.py:123 input text 123456
+INFO     RegisterPage:BasePage.py:69  найден элемент с кликаббельным локаттором ('css selector', '[name="agree"]')
+INFO     RegisterPage:BasePage.py:114 Clicking element
+INFO     RegisterPage:BasePage.py:34  найден элемент с локатором ('css selector', '[value="Continue"]')
+INFO     RegisterPage:BasePage.py:114 Clicking element
+INFO     BrowserLogger:conftest.py:73 ===> Test finished name, test is test_registration

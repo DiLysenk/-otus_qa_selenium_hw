@@ -1,0 +1,2 @@
+INFO     BrowserLogger:conftest.py:65 ===> Test started name, test is test_switch_currency
+INFO     BrowserLogger:conftest.py:73 ===> Test finished name, test is test_switch_currency

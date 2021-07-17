@@ -1,0 +1,7 @@
+[32mINFO    [0m BrowserLogger:conftest.py:65 ===> Test started name, test is test_switch_currency
+[32mINFO    [0m MainPage:BasePage.py:34  найден элемент с локатором ('css selector', '.btn.btn-link.dropdown-toggle')
+[32mINFO    [0m MainPage:BasePage.py:114 Clicking element
+[32mINFO    [0m MainPage:BasePage.py:45  найден элемент с текстом £ Pound Sterling
+[32mINFO    [0m MainPage:BasePage.py:114 Clicking element
+[32mINFO    [0m MainPage:BasePage.py:45  найден элемент с текстом £
+[32mINFO    [0m BrowserLogger:conftest.py:73 ===> Test finished name, test is test_switch_currency

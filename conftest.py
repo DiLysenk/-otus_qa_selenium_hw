@@ -2,22 +2,25 @@ import pytest
 import logging
 import allure
 from selenium import webdriver
-from pageobject.LoginPage import LoginAdminPage
 from ConfigParser import ConfigParser
 
 # DRIVERS = os.path.expanduser("~/Downloads/drivers")
 
 config = ConfigParser()
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-                    , level=logging.INFO, filename="logs/selenium.log")
+try:
+    logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
+                        level=logging.INFO, filename="logs/selenium.log")
+except FileNotFoundError:
+    logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
+                        level=logging.INFO, filename="../../logs/selenium.log")
 
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
     parser.addoption('--headless', action="store_true", help="Run headless")
     parser.addoption('--executor', action="store", help="run remote with arguments + ip")
-    parser.addoption('--bversion', action="store", default="90.0", help="version browser")
+    parser.addoption('--bversion', action="store", default="91.0", help="version browser")
 
 
 @pytest.fixture(scope='session')
