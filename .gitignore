@@ -7,3 +7,5 @@
 /.allure-report/
 /allure-results/
 /tests/allure-results/
+/__pycache__/
+/tests/__pycache__/
