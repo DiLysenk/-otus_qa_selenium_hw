@@ -5,3 +5,5 @@
 *.log
 /.allure-results/
 /.allure-report/
+/allure-results/
+/tests/allure-results/

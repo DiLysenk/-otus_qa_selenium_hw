@@ -6,7 +6,7 @@ class MainPage(BasePage):
     CURRENCY = (By.CSS_SELECTOR, '.btn.btn-link.dropdown-toggle')
     POUND_STERLING = "£ Pound Sterling"
     CABINET = (By.CSS_SELECTOR, '.hidden-xs.hidden-sm.hidden-md')
-    OpenCArt = 'http://demo-opencart.ru/index.php'
+    OpenCArt = 'http://172.17.0.1:7070/admin/'
 
 
     def change_currency(self):

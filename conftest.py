@@ -1,20 +1,30 @@
 import pytest
 import logging
 import allure
+import time
 from selenium import webdriver
 from ConfigParser import ConfigParser
+import requests
+from requests.exceptions import ConnectionError
+
 
 # DRIVERS = os.path.expanduser("~/Downloads/drivers")
 
 config = ConfigParser()
 
-try:
-    logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
-                        level=logging.INFO, filename="logs/selenium.log")
-except FileNotFoundError:
-    logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
-                        level=logging.INFO, filename="../../logs/selenium.log")
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+                    , level=logging.INFO, filename="logs/selenium.log")
 
+for i in range(10):
+    i += 1
+    try:
+        requests.get('http://172.17.0.1:7070//wd/hub').status_code
+    except ConnectionError:
+        time.sleep(15)
+        print("сервер c opencart еще не поднялся")
+        pass
+        if i == 10:
+            raise AssertionError("сервер c opencart не поднялся, попробуйте запустить еще раз")
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
@@ -36,7 +46,7 @@ def browser(request):
             'goog:chromeOptions': {}
         }
         browser = webdriver.Remote(
-            command_executor=f'http://{executor}:4444/wd/hub',
+            command_executor=f'http://172.17.0.1:4444//wd/hub',
             desired_capabilities=caps
         )
         browser.maximize_window()

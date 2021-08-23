@@ -11,7 +11,7 @@ class RegisterPage(BasePage):
     PASSWORD_CONFIRM = (By.CSS_SELECTOR, '[placeholder="Password Confirm"]')
     CHECK_BOX_AGREE = (By.CSS_SELECTOR, '[name="agree"]')
     CONTINUE = (By.CSS_SELECTOR, '[value="Continue"]')
-    URL_REGISTER = 'https://demo.opencart.com/index.php?route=account/register'
+    URL_REGISTER = 'http://172.17.0.1:7070/index.php?route=account/register'
 
 
     def fill_form(self, name, email):

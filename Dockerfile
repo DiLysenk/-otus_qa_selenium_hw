@@ -4,10 +4,9 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD  ["pytest",  "--executor", "172.17.0.1"]
+CMD ["pytest", "--executor", "tests/test_e2e.py"]
