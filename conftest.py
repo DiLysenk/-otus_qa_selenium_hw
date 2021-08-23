@@ -17,10 +17,11 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 for i in range(10):
     i += 1
+    time.sleep(15)
     try:
-        requests.get('http://172.17.0.1:7070//wd/hub').status_code
+        var = requests.get('http://172.17.0.1:7070').status_code
+        break
     except ConnectionError:
-        time.sleep(15)
         print("сервер c opencart еще не поднялся")
         pass
         if i == 10:
