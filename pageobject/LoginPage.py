@@ -9,7 +9,7 @@ class LoginAdminPage(BasePage):
     USERNAME_ADMIN = (By.CSS_SELECTOR, '[name="username"]')
     PASSWORD_ADMIN = (By.CSS_SELECTOR, '[name="password"]')
     LOGIN_BUTTON_ADMIN = (By.CSS_SELECTOR, ".btn.btn-primary")
-    ADMIN_PAGE = 'http://localhost/admin/index.php'
+    ADMIN_PAGE = 'https://demo.opencart.com/admin/'
 
     def login_admin(self):
         self.input_keys(self.element_css(self.USERNAME_ADMIN), configparser.LOGIN)
