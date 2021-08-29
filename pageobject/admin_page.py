@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from .BasePage import BasePage
+from .base_page import BasePage
 
 
 class AdminPage(BasePage):
@@ -16,24 +16,24 @@ class AdminPage(BasePage):
     SUCCESS_DELETE = (By.CSS_SELECTOR, '.alert.alert-success.alert-dismissible')
 
     def go_to_Products(self):
-        self.click_element(self.element_css_clickble(self.CATALOG))
-        self.click_element(self.element_css_clickble(self.PRODUCTS))
+        self.click_element(self.verify_element_clickable(self.CATALOG))
+        self.click_element(self.verify_element_clickable(self.PRODUCTS))
         return self
 
     def add_product(self, model):
-        self.click_element(self.element_css_clickble(self.ADD_NEW))
-        self.input_keys(self.element_css(self.PRODUCT_NAME), model)
-        self.input_keys(self.element_css(self.META_TAG_TITLE), model)
-        self.click_element(self.element_text('Data'))
-        self.input_keys(self.element_css(self.MODEL), model)
-        self.click_element(self.element_css_clickble(self.SAVE))
+        self.click_element(self.verify_element_clickable(self.ADD_NEW))
+        self.enter_keys(self.verify_element_visible(self.PRODUCT_NAME), model)
+        self.enter_keys(self.verify_element_visible(self.META_TAG_TITLE), model)
+        self.click_element(self.verify_link_text_visible('Data'))
+        self.enter_keys(self.verify_element_visible(self.MODEL), model)
+        self.click_element(self.verify_element_clickable(self.SAVE))
         return self
 
     def select_product(self):
-        self.click_in_element(self.element_css(self.TABLE), self.SELECT_PRODUCT, 2)
+        self.click_inside_element(self.verify_element_visible(self.TABLE), self.SELECT_PRODUCT, 2)
         return self
 
     def delete_product(self):
-        self.click_element(self.element_css(self.DELETE))
+        self.click_element(self.verify_element_visible(self.DELETE))
         alert = self.browser.switch_to.alert
         alert.accept()

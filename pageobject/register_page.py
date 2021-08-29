@@ -1,4 +1,4 @@
-from .BasePage import BasePage
+from .base_page import BasePage
 from selenium.webdriver.common.by import By
 
 
@@ -15,17 +15,17 @@ class RegisterPage(BasePage):
 
 
     def fill_form(self, name, email):
-        self.input_keys(self.element_css(self.FIRST_NAME), name)
-        self.input_keys(self.element_css(self.LAST_NAME), name)
-        self.input_keys(self.element_css(self.EMAIL), email)
-        self.input_keys(self.element_css(self.TELEPHONE), "123456789")
-        self.input_keys(self.element_css(self.PASSWORD), "123456")
-        self.input_keys(self.element_css(self.PASSWORD_CONFIRM), "123456")
+        self.enter_keys(self.verify_element_visible(self.FIRST_NAME), name)
+        self.enter_keys(self.verify_element_visible(self.LAST_NAME), name)
+        self.enter_keys(self.verify_element_visible(self.EMAIL), email)
+        self.enter_keys(self.verify_element_visible(self.TELEPHONE), "123456789")
+        self.enter_keys(self.verify_element_visible(self.PASSWORD), "123456")
+        self.enter_keys(self.verify_element_visible(self.PASSWORD_CONFIRM), "123456")
         return self
 
-    def agree_polycy(self):
-        self.click_element(self.element_css_clickble(self.CHECK_BOX_AGREE))
+    def agree_policy(self):
+        self.click_element(self.verify_element_clickable(self.CHECK_BOX_AGREE))
         return self
 
     def click_continue(self):
-        self.click_element(self.element_css(self.CONTINUE))
+        self.click_element(self.verify_element_visible(self.CONTINUE))

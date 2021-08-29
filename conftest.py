@@ -3,7 +3,7 @@ import logging
 import allure
 import time
 from selenium import webdriver
-from ConfigParser import ConfigParser
+from config_parser import ConfigParser
 import requests
 from requests.exceptions import ConnectionError
 
@@ -11,6 +11,8 @@ from requests.exceptions import ConnectionError
 # DRIVERS = os.path.expanduser("~/Downloads/drivers")
 
 config = ConfigParser()
+
+# pytest_plugins = ['fixture']
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
                     , level=logging.INFO, filename="logs/selenium.log")

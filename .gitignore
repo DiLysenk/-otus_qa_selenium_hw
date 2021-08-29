@@ -9,3 +9,5 @@
 /tests/allure-results/
 /__pycache__/
 /tests/__pycache__/
+**.logs
+**.allure-results
