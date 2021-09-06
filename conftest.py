@@ -7,7 +7,6 @@ from config_parser import ConfigParser
 import requests
 from requests.exceptions import ConnectionError
 
-
 # DRIVERS = os.path.expanduser("~/Downloads/drivers")
 
 config = ConfigParser()
@@ -28,6 +27,7 @@ for i in range(10):
         pass
         if i == 10:
             raise AssertionError("сервер c opencart не поднялся, попробуйте запустить еще раз")
+
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
@@ -70,6 +70,7 @@ def browser(request):
     request.addfinalizer(fin)
     return browser
 
+
 @pytest.fixture(scope='function')
 def loging(request, browser):
     logger = logging.getLogger('BrowserLogger')
@@ -86,4 +87,29 @@ def loging(request, browser):
         logger.info(f"===> Test finished name, test is {test_name}")
 
     request.addfinalizer(fin)
+
+
+@pytest.fixture(scope='function')
+def api_login(request):
+    logger = logging.getLogger('BrowserLogger')
+    test_name = request.node.name
+
+    logger.info(f"===> Test started name, test is {test_name}")
+
+    def fin():
+        allure.attach(name='finalizer attach')
+
+    logger.info(f"===> Test finished name, test is {test_name}")
+
+    request.addfinalizer(fin)
+
+
+@pytest.fixture(scope='session')
+def api_session():
+    s = requests.Session()
+    resp = s.post('http://172.17.0.1:7070/index.php?route=api/login',
+                  data={'username': config.apiuser, 'key': config.apikey}).text
+
+    resp_token = resp.json()['api_token']
+
 

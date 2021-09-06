@@ -51,12 +51,20 @@ services:
       - JENKINS_PASSWORD=bitnami
     volumes:
       - 'jenkins_data:/bitnami/jenkins'
-  tests:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    depends_on:
-      - opencart
+  json-server:
+    image: vimagick/json-server
+    command: -H 0.0.0.0 -p 3000 -w db.json
+    ports:
+      - "6060:3000"
+    volumes:
+      - ./data:/data
+    restart: always
+#  tests:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    depends_on:
+#      - opencart
 volumes:
   jenkins_data:
     driver: local

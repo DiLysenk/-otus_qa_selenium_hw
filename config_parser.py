@@ -9,6 +9,9 @@ class ConfigParser:
         self.PASSWORD = self.parsed[1]
         self.ADMIN_FRONT = self.parsed[2]
         self.USER_FRONT = self.parsed[3]
+        self.apikey = self.parsed[4]
+        self.apiuser = self.parsed[5]
+
 
     def config_parser(self):
         path = ['./test.config', '../test.config', '../../test.config', '././test.config']
@@ -25,4 +28,6 @@ class ConfigParser:
         password = config.get('user', 'password')
         admin_front = config.get('url', 'admin_front')
         user_front = config.get('url', 'user_front')
+        api_key = config.get('api', 'user')
+        api_user = config.get('api', 'apikey')
         return login, password, admin_front, user_front
