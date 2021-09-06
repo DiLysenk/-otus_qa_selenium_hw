@@ -50,4 +50,6 @@ class TestOpenCart:
         MainPage(browser).\
             open_page_by_url(MainPage.OpenCArt).\
             change_currency()
-        assert MainPage(browser).verify_element_visible_by_text('£'), "валюта не переведена"
+        assert MainPage(browser).verify_element_visible_by_text('фунт стерлинг'), "валюта не переведена"
+
+
