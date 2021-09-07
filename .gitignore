@@ -4,13 +4,13 @@
 /tests/.pytest_cache/
 *.log
 /.allure-results/
-/.allure-report/
-/allure/allure-results/
+**/allure-report/
+
 /tests/allure-results/
-/__pycache__/
+**/__pycache__/
 /tests/__pycache__/
 **.logs
 **.allure-results
 /allure-report/
 /tests/logs/
-/allure/allure-results/
+**/allure-results/
