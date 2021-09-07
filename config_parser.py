@@ -11,16 +11,13 @@ class ConfigParser:
         self.USER_FRONT = self.parsed[3]
 
     def config_parser(self):
-        path = ['./test.config', '../test.config', '../../test.config', '././test.config']
+        path = ['test.config']
         config = configparser.ConfigParser()
         for i in range(len(path)):
             try:
                 config.read(path[i])
             except configparser.NoSectionError:
                 raise AssertionError("конфигурационный файл не найден")
-            if i == len(path) - 1:
-                print("конфигурационный файл не найден")
-                break
         login = config.get('user', 'username')
         password = config.get('user', 'password')
         admin_front = config.get('url', 'admin_front')

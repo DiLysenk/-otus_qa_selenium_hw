@@ -55,8 +55,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - 'tests_data:/app/allure/allure-results'
+      - 'tests_data:/app/logs'
     depends_on:
       - opencart
+
 volumes:
   jenkins_data:
     driver: local
@@ -66,3 +70,4 @@ volumes:
     driver: local
   opencart_storage_data:
     driver: local
+  tests_data:
