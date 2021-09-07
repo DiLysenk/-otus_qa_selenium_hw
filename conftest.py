@@ -5,15 +5,22 @@ import time
 from selenium import webdriver
 from config_parser import ConfigParser
 import requests
+import os
 from requests.exceptions import ConnectionError
 
 
 
 config = ConfigParser()
+try:
+    os.mkdir('logs')
+    os.mkdir('allure')
+except FileExistsError:
+    print('папка создана всё ок')
 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
-                        level=logging.INFO, filename='logs/selenium.log')
+                    level=logging.INFO, filename='logs/selenium.log')
+
 
 with open("test/test_api/end_points", 'r') as params:
     list_params = params.readlines()
