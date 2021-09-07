@@ -8,8 +8,6 @@ from faker import Faker
 
 myFactory = Faker()
 
-
-
 @pytest.mark.usefixtures('loging')
 class TestOpenCart:
     @allure.description("""Проверка согдания пользователя""")
@@ -50,6 +48,16 @@ class TestOpenCart:
         MainPage(browser).\
             open_page_by_url(MainPage.OpenCArt).\
             change_currency()
-        assert MainPage(browser).verify_element_visible_by_text('фунт стерлинг'), "валюта не переведена"
+        assert MainPage(browser).verify_element_visible_by_text('£'), "валюта не переведена"
+
+
+    @allure.description("""Проверка изменение валюты на главной странице""")
+    @allure.title('тест изменение валюты')
+    @pytest.mark.xfail
+    def test_switch_currency_fail(self, browser):
+        MainPage(browser).\
+            open_page_by_url(MainPage.OpenCArt).\
+            change_currency()
+        assert MainPage(browser).verify_element_visible_by_text('₽'), "не должно быть такой валюты"
 
 

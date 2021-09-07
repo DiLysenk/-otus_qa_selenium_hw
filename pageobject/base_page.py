@@ -20,8 +20,6 @@ class BasePage:  # базовый класс для PageObject
     def verify_page_loaded(self):
         self.wait.until(lambda driver: self.browser.execute_script('return document.readyState') == 'complete')
 
-
-
     def verify_selected_element(self, element):
         """метод для проверки -выделен ли элемент? на странице  """
         if 'selected' not in element.get_attribute("class"):
@@ -38,7 +36,7 @@ class BasePage:  # базовый класс для PageObject
             self.logger.info(f'успешно найден элемент с текстом -- {link_text}')
             return element
         except TimeoutException:
-            self.logger.info(f'ошибка, элемент с ссылкой по тексту -- {link_text} не найден')
+            self.logger.error(f'ошибка, элемент с ссылкой по тексту -- {link_text} не найден')
             raise AssertionError(f'Не найти элемент с тексту -- {link_text}')
 
     def verify_element_visible(self, locator: tuple):
@@ -49,7 +47,7 @@ class BasePage:  # базовый класс для PageObject
             self.logger.info(f'успешно найден элемент по локатору с локатором {locator}')
             return element
         except TimeoutException:
-            self.logger.info(f'ошибка, элемент по css не найден {locator}')
+            self.logger.error(f'ошибка, элемент по css не найден {locator}')
             raise AssertionError(f'не найти элемент по локатору: {locator}')
 
     def verify_element_presence(self, locator: tuple):
@@ -61,7 +59,7 @@ class BasePage:  # базовый класс для PageObject
             self.logger.info(f'успешно найден элемент по локатору с локатором {locator}')
             return element
         except TimeoutException:
-            self.logger.info(f'ошибка, элемент по css не найден {locator}')
+            self.logger.error(f'ошибка, элемент по css не найден {locator}')
             raise AssertionError(f'не найти элемент по локатору: {locator}')
 
     def verify_element_visible_by_text(self, text: str):
@@ -73,7 +71,7 @@ class BasePage:  # базовый класс для PageObject
             self.logger.info(f'найден элемент с текстом {text}')
             return element
         except TimeoutException:
-            self.logger.info(f'элемент не найден {text}')
+            self.logger.error(f'элемент не найден {text}')
             raise AssertionError(f'не могу найти элемент по тексту: {text}')
 
     # метод для верификации элементов с помощью локатора
@@ -88,7 +86,7 @@ class BasePage:  # базовый класс для PageObject
                 self.wait_time(3)
                 return self.wait.until(ec.visibility_of_all_elements_located(locator))
         except TimeoutException:
-            self.logger.info(f'элемент не найден {locator}')
+            self.logger.error(f'элемент не найден {locator}')
             raise AssertionError(f'не могу найти элементы по локатору: {locator}')
 
     def verify_element_clickable(self, locator: tuple):
@@ -99,21 +97,21 @@ class BasePage:  # базовый класс для PageObject
             self.logger.info(f'найден элемент с кликабельным локатором {locator}')
             return element
         except TimeoutException:
-            self.logger.info(f'элемент не найден {locator}')
+            self.logger.error(f'элемент не найден {locator}')
             raise AssertionError(f'Элемент не становится кликабельным: {locator}')
 
     def verify_element_not_visible(self, locator: tuple):
         try:
             return self.wait.until(ec.invisibility_of_element_located(locator))
         except TimeoutException:
-            self.logger.info(f'элемент найден и не исчезает {locator}')
+            self.logger.error(f'элемент найден и не исчезает {locator}')
             raise AssertionError(f'элемент не исчез с экрана {locator}')
 
     def verify_url(self, url):
         try:
             return self.wait.until(ec.url_to_be(url))
         except TimeoutException:
-            self.logger.info(f'адрес странички не  {url}')
+            self.logger.error(f'адрес странички не  {url}')
             raise AssertionError(f'некорректный адрес страницчки {url}')
 
     def click_element_ac(self, element):
@@ -160,7 +158,6 @@ class BasePage:  # базовый класс для PageObject
     def get_attribute_element(self, element, attribute):
         return element.get_attribute(attribute)
 
-    # sleep сделан для того что бы не было разлогиневания
     def refresh_browser(self):
         self.wait_time(1)
         self.browser.refresh()
@@ -213,9 +210,6 @@ class BasePage:  # базовый класс для PageObject
     def scroll_page_up(self):
         self.browser.execute_script('window.scrollTo(0, -document.body.scrollHeight);')
         return self
-
-    def choose_by_text_in_filter(self):
-        pass
 
     def delete_text_in_element(self, element):
         element.send_keys(Keys.CONTROL + Keys.BACKSPACE)

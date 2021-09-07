@@ -7,14 +7,17 @@ from config_parser import ConfigParser
 import requests
 from requests.exceptions import ConnectionError
 
-# DRIVERS = os.path.expanduser("~/Downloads/drivers")
+
 
 config = ConfigParser()
 
-# pytest_plugins = ['fixture']
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-                    , level=logging.INFO, filename="logs/selenium.log")
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w',
+                        level=logging.INFO, filename='logs/selenium.log')
+
+with open("test/test_api/end_points", 'r') as params:
+    list_params = params.readlines()
+    list_endpoints = [i.strip('\n') for i in list_params]
 
 for i in range(10):
     i += 1
@@ -32,7 +35,7 @@ for i in range(10):
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome")
     parser.addoption('--headless', action="store_true", help="Run headless")
-    parser.addoption('--executor', action="store", help="run remote with arguments + ip")
+    parser.addoption('--executor', action="store")
     parser.addoption('--bversion', action="store", default="91.0", help="version browser")
 
 
@@ -88,28 +91,11 @@ def loging(request, browser):
 
     request.addfinalizer(fin)
 
-
-@pytest.fixture(scope='function')
-def api_login(request):
-    logger = logging.getLogger('BrowserLogger')
-    test_name = request.node.name
-
-    logger.info(f"===> Test started name, test is {test_name}")
-
-    def fin():
-        allure.attach(name='finalizer attach')
-
-    logger.info(f"===> Test finished name, test is {test_name}")
-
-    request.addfinalizer(fin)
+@pytest.fixture(name="end_point", params=list_endpoints)
+def get_end_point(request):
+    yield request.param
 
 
-@pytest.fixture(scope='session')
-def api_session():
-    s = requests.Session()
-    resp = s.post('http://172.17.0.1:7070/index.php?route=api/login',
-                  data={'username': config.apiuser, 'key': config.apikey}).text
-
-    resp_token = resp.json()['api_token']
-
-
+@pytest.fixture
+def response_get(end_point):
+    return requests.get(end_point)
