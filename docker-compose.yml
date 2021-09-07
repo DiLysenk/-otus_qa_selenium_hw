@@ -56,7 +56,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - 'tests_data:/app/allure/allure-results'
+      - 'tests_data:/app/allure'
       - 'tests_data:/app/logs'
     depends_on:
       - opencart
